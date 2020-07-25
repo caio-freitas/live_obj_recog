@@ -114,11 +114,10 @@ while True:
     #cv2.imshow("Objects", obj)
     show_image(image)
     #cv2.imshow("Camera", image)
-    #### MAGICA ######
+    
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
         break
-    #################
 cap.release()
 cv2.destroyAllWindows()
 # if __name__ == "__main__":
